@@ -1,4 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
+import { validateEnv } from './src/utils/env';
+
+validateEnv();
 
 export default defineConfig({
   testDir: './tests',
