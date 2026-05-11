@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "lint": "eslint .--ext .ts",
+    "lint": "eslint .",
     "format": "prettier --write ."
   },
   "repository": {
@@ -23,6 +23,10 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.2",
+    "@typescript-eslint/parser": "^8.59.2",
+    "eslint": "^10.3.0",
+    "eslint-plugin-playwright": "^2.10.2",
     "typescript": "^6.0.3"
   }
 }
